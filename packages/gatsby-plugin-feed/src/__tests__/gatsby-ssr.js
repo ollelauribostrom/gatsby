@@ -20,14 +20,7 @@ describe(`Adds <Link> for feed to head`, () => {
       ],
     }
     const setHeadComponents = jest.fn()
-
-    await onRenderBody(
-      {
-        setHeadComponents,
-      },
-      pluginOptions
-    )
-
+    await onRenderBody({ setHeadComponents }, pluginOptions)
     expect(setHeadComponents).toMatchSnapshot()
     expect(setHeadComponents).toHaveBeenCalledTimes(1)
   })
@@ -43,14 +36,7 @@ describe(`Adds <Link> for feed to head`, () => {
       ],
     }
     const setHeadComponents = jest.fn()
-
-    await onRenderBody(
-      {
-        setHeadComponents,
-      },
-      pluginOptions
-    )
-
+    await onRenderBody({ setHeadComponents }, pluginOptions)
     expect(setHeadComponents).toMatchSnapshot()
     expect(setHeadComponents).toHaveBeenCalledTimes(1)
   })
@@ -68,14 +54,7 @@ describe(`Adds <Link> for feed to head`, () => {
       ],
     }
     const setHeadComponents = jest.fn()
-
-    await onRenderBody(
-      {
-        setHeadComponents,
-      },
-      pluginOptions
-    )
-
+    await onRenderBody({ setHeadComponents }, pluginOptions)
     expect(setHeadComponents).toMatchSnapshot()
     expect(setHeadComponents).toHaveBeenCalledTimes(1)
   })
@@ -94,14 +73,7 @@ describe(`Adds <Link> for feed to head`, () => {
       ],
     }
     const setHeadComponents = jest.fn()
-
-    await onRenderBody(
-      {
-        setHeadComponents,
-      },
-      pluginOptions
-    )
-
+    await onRenderBody({ setHeadComponents }, pluginOptions)
     expect(setHeadComponents).toMatchSnapshot()
     expect(setHeadComponents).toHaveBeenCalledTimes(1)
   })

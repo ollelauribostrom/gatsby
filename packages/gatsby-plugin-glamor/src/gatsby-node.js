@@ -1,5 +1,5 @@
 // Add Glamor support
-exports.onCreateWebpackConfig = ({ actions, plugins }) =>
+export const onCreateWebpackConfig = ({ actions, plugins }) =>
   actions.setWebpackConfig({
     plugins: [
       plugins.provide({
@@ -9,7 +9,7 @@ exports.onCreateWebpackConfig = ({ actions, plugins }) =>
   })
 
 // Add Glamor babel plugin
-exports.onCreateBabelConfig = ({ actions }) => {
+export const onCreateBabelConfig = ({ actions }) => {
   actions.setBabelPlugin({
     name: `glamor/babel-hoist`,
   })

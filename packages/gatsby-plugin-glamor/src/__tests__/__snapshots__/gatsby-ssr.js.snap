@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gatsby-plugin-glamor replaceRenderer sets the correct head components 1`] = `
+Array [
+  Array [
+    Array [
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "mock-css",
+          }
+        }
+        id="glamor-styles"
+      />,
+      <script
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+        // <![CDATA[
+        window._glamor = \\"mock-ids\\"
+        // ]]>
+        ",
+          }
+        }
+        id="glamor-ids"
+      />,
+    ],
+  ],
+]
+`;

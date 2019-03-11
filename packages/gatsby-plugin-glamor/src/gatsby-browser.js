@@ -1,6 +1,6 @@
 import { rehydrate } from "glamor"
 
-exports.onClientEntry = () => {
+export const onClientEntry = () => {
   if (window._glamor) {
     rehydrate(window._glamor)
   }
